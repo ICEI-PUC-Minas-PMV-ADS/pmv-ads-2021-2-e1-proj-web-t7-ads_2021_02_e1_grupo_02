@@ -1,23 +1,26 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO DE DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`SEMESTRE`
+`EIXO 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Plataforma de Compartilhamento de Livros
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alison Pires
+* Álvaro Alfaya Fonseca
+* Dênio Gonçalves de Lima
+* Gabrielle Alcantara
+* Hestefani Romão Durães
+* Mychel Costa da Silva
+* Wendy Louise Maruch Artiaga
 
 ## Orientador
 
-* Nome completo do professor 1
+* Mateus Curcino De Lima
 
 ## Instruções de utilização
 
