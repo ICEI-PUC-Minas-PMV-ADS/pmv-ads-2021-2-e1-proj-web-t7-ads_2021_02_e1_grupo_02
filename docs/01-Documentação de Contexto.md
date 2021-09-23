@@ -33,4 +33,5 @@ Com uma plataforma de troca focada em livros, seja de ideias ou de produtos, aum
 ## Público-Alvo
 
 Diversas pessoas podem se beneficiar dessa plataforma. Porém, o foco desse projeto está no público que tem o hábito de ler livros, ou que busque um nicho específico de gêneros de livros.
+
 Sendo assim, estabeleceu-se como público-alvo desta solução homens e mulheres, entre 15 e 50 anos, que estudam, trabalham, tem hábito por leitura de livros ou que leem materiais religiosos, e que possuam familiaridade com o uso de computadores e dispositivos móveis para pesquisas.
