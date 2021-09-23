@@ -18,7 +18,6 @@ Conforme exposto, o problema que se busca resolver com este projeto é a dificul
 O objetivo geral deste trabalho é a criação de uma plataforma que apresente uma interface de fácil uso e que permita a interação entre os usuários, de forma que contribuam com informações de locais onde elas encontraram determinados gêneros de livros à venda, e que também permita a intermediação entre aqueles que desejam doar, trocar ou alugar livros. 
 
 Como objetivos específicos, podemos ressaltar:
-
 ●	Fornecer funcionalidades que permitam publicações de dicas de locais que vendam determinados exemplares de livros, com campos pré-definidos e obrigatórios;
 ●	Fornecer funcionalidades que permitam publicações de livros para doação, troca ou venda, com campos pré-definidos e obrigatórios;
 ●	Permitir a interação entre usuários interessados em doação, troca ou venda;
