@@ -1,13 +1,17 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O mundo atual consiste em um cenário globalizado, interligado, onde a troca de informações ocorre de forma bastante rápida e as conexões acontecem instantaneamente. Porém, nem sempre a informações importante, necessárias, chegam às mãos daqueles que as precisam, seja por não saberem como buscá-las, aproveitá-las, ou disponibilizá-las. 
+
+A busca por livros é um exemplo disso. Os livros tiveram que acompanhar essa evolução, sendo disponibilizados em plataformas online, dispensando a sua forma física. Embora isso pareça uma tarefa fácil nos dias de hoje, é visto como dificuldade por uma parte da população. Muitos se queixam da dificuldade em encontrar, por meio de pesquisas virtuais, locais que vendam livros de determinados gêneros, exemplares mais específicos ou mais antigos. E se torna necessário o deslocamento presencial até os estabelecimentos comerciais, criando um problema adicional em meio à pandemia do Coronavírus, no qual há restrição de locomoção e aglomeração de pessoas. Os estabelecimentos comerciais, por sua vez, podem ofertar o produto por valores mais caros devido aos custos de manutenção do espaço físico.
+
+O comercio eletrônico simplificou a forma como se pode realizar compras em lojas utilizando a internet, mas a maioria das plataformas atuais de compra de livros dão destaque para a venda de exemplares novos e não possuem ferramentas práticas para que as pessoas possam compartilhar seus exemplares ou fornecer informações sobre eles. 
+
+O escambo é um termo utilizado para a prática da troca, seja de serviços ou mercadorias. Foi bastante comum no Brasil durante os primeiros anos da exploração dos recursos naturais. E se essa prática fosse utilizada para amenizar problemas encontrados atualmente? E se pudéssemos trocar ideias e produtos, como no caso dos livros, e agregar à sociedade o acesso à fonte de informação? 
+
+Diante disso, levantou-se a necessidade de uma plataforma que permita aos usuários contribuir com informações de locais onde elas encontraram determinados gêneros de livros e que também permita a intermediação entre pessoas que desejam doar, trocar ou alugar livros.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade encontrada pelas pessoas em adquirir ou compartilhar livros de difícil aquisição, seja por falta de bibliotecas próximas de casa, por causa dos preços elevados cobrados em livros novos, por não conseguirem localizar em pesquisas virtuais lojas que vendam um gênero específico ou pela falta de unidades do livro disponíveis para a venda.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,28 +20,30 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma plataforma que apresente uma interface de fácil uso e que permita a interação entre os usuários, de forma que contribuam com informações de locais onde elas encontraram determinados gêneros de livros à venda, e que também permita a intermediação entre aqueles que desejam doar, trocar ou alugar livros. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
+Como objetivos específicos, podemos ressaltar:
+●	Fornecer funcionalidades que permitam publicações de dicas de locais que vendam determinados exemplares de livros, com campos pré-definidos e obrigatórios;
+●	Fornecer funcionalidades que permitam publicações de livros para doação, troca ou venda, com campos pré-definidos e obrigatórios;
+●	Permitir a interação entre usuários interessados em doação, troca ou venda;
+●	Fornecer filtros nos campos de busca que permitam localizar informações sobre um livro específico de forma assertiva.
+
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Mais do que nunca, a interação e o compartilhamento social se tornam importantes para a sociedade. Com a tecnologia cada vez mais avançada, há menos convívio social presencial. E, com isso, as pessoas conversam menos e se interagem menos. Além disso, o capitalismo se torna o foco das relações e pagam-se preços altos pela educação e cultura.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Com uma plataforma de troca focada em livros, seja de ideias ou de produtos, aumentamos a relações pessoais, as interações, a solidariedade e a empatia. As pessoas se reconhecem na dificuldade do outro e podem, assim, se ajudarem mutuamente.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Diversas pessoas podem se beneficiar dessa plataforma. Porém, o foco desse projeto está no público que tem o hábito de ler livros, ou que busque um nicho específico de gêneros de livros.
+Sendo assim, estabeleceu-se como público-alvo desta solução homens e mulheres, entre 15 e 50 anos, que estudam, trabalham, tem hábito por leitura de livros ou que leem materiais religiosos, e que possuam familiaridade com o uso de computadores e dispositivos móveis para pesquisas.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
