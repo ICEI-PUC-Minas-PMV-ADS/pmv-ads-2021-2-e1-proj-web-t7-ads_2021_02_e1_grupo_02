@@ -20,11 +20,8 @@ O objetivo geral deste trabalho é a criação de uma plataforma que apresente u
 Como objetivos específicos, podemos ressaltar:
 
 ●	Fornecer funcionalidades que permitam publicações de dicas de locais que vendam determinados exemplares de livros, com campos pré-definidos e obrigatórios;
-
 ●	Fornecer funcionalidades que permitam publicações de livros para doação, troca ou venda, com campos pré-definidos e obrigatórios;
-
 ●	Permitir a interação entre usuários interessados em doação, troca ou venda;
-
 ●	Fornecer filtros nos campos de busca que permitam localizar informações sobre um livro específico de forma assertiva.
 
 ## Justificativa
