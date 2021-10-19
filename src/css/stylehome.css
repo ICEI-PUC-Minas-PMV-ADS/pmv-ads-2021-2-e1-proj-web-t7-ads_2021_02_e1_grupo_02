@@ -1,0 +1,77 @@
+body {
+  background: url("imagens/fundo.jpeg") no-repeat center center fixed;
+
+  background-size: cover;
+
+  -webkit-background-size: cover; /* SAFARI / CHROME */
+
+  -moz-background-size: cover; /* FIREFOX */
+
+  -ms-background-size: cover; /* IE */
+
+  -o-background-size: cover; /* OPERA */
+}
+
+h1 {
+  font-family: Prata;
+  color: white;
+  width: 392px;
+  height: 56px;
+  font-size: 38px;
+  font-weight: lighter;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+button {
+  background-color: #d04040;
+  width: 168px;
+  height: 42px;
+  padding: 0px;
+  border: 0px;
+  font-family: Zilla Slab;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Entrar {
+  margin-top: -3.5%;
+  margin-left: 90%;
+}
+
+h2 {
+  font-family: Work Sans;
+  color: white;
+  width: 956px;
+  height: 57px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+p {
+  color: white;
+  font-family: Zilla Slab;
+  width: 567px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: lighter;
+  margin-left: 37%;
+}
+
+section {
+  color: white;
+  font-family: Zilla Slab;
+  width: 688px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+.CriarConta {
+  margin-left: 45%;
+}
