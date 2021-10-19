@@ -1,0 +1,252 @@
+@charset "UTF-8";
+body{
+
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    display: flex;
+    margin-top: 1%;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
+}
+header{
+    background-color: #885053;
+    padding: 0%;
+    margin: -1%;
+
+    
+}
+nav{
+    background-color:#BF9A9A;
+    padding: 0%;
+    text-align: center;
+    margin-bottom:0% ;
+}
+.paginas > a{
+    color: rgb(252, 252, 252);  
+    text-decoration: none;
+    font-size: small;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.295);
+    margin: 2%;
+}
+
+.paginas >:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255,0.2);
+    
+}
+ul{
+color: white;
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+padding: -1%;
+}
+#principal{
+   font-size: 1%;
+   padding-bottom: 0%;
+   margin-top: -6%;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
+   
+}
+#principal > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    
+    
+}
+#principal > a:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255,0.2);
+    color: #ffffff;
+}
+#mc {
+    color: white;
+    margin-top:-5%;
+    margin-left:65%;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.589);
+    
+}
+    
+
+ol{ 
+    margin-top: -95px;
+    margin-left: -120px;
+    list-style-type: none;
+}
+
+img{
+    margin-top: -4%;
+    margin-left: 68%;
+    margin-bottom: 3%;
+    display: flex;
+}
+#mc > a{
+    color: rgb(253, 246, 246);
+    text-decoration: none;
+    
+}
+#mc > a:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255,0.2);
+    color: rgb(255, 255, 255)
+}
+.igual > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: none;
+    list-style-type: none;
+    
+}
+.igual > a:hover{
+    text-decoration: underline;
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.2);
+    
+}
+
+#search {   
+    height: 0%;
+    width: 22%;
+    padding: 1%;
+    margin-left: 32%;
+    border-radius: 3%;
+    border: none;
+    margin-top: -6%;
+    margin-bottom: -1%;
+    display: flex;
+    outline: none; 
+}
+form{
+    background-color:#f5e3e02b;
+    font-family: fantasy;
+    width: 45%;
+    padding: 3% 1% 2% 3%;
+    margin: -3% 2% 1% 2%;
+    border-radius: 20px;
+    box-shadow: 7px 6px 5px #00000052;
+    outline: none;
+    
+}
+#titulo{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #00000052;
+    margin-left: 2%;
+    margin-top: auto;
+}
+.formulario{
+    width: 95%;
+    border: none;
+    padding: 1%;
+    outline: none;    
+}
+#botao{
+    background-color: #d13b3bf7;
+    color: white;
+    border: none;
+    width: 23%;
+    padding: 2%;
+}
+ .livros{
+    display: flex;
+    margin-top: -27%;
+    margin-left: 65%;
+    width: 23%;
+}
+#pesquisa{
+    display: none;
+}
+@media (max-width:1115px){
+.paginas > a { display: none;}
+#pesquisa{
+    display: block;
+    border: none;
+    background: #88505300;
+    margin-left: 2%;
+    margin-top: -1%;
+    font-size: x-large;
+    color: #885053;
+}
+#pesquisa:hover{
+    background-color: rgb(255, 255, 255,0.2)
+    
+}
+nav { 
+    margin-top: -3% 
+  }
+img {display: none;}
+#mc {display: none;}
+#search{ 
+    height: 10%;
+     width: 32%;
+    padding: 1%;
+    margin-top: -7%;
+    margin-bottom: 7%;
+    display: block;
+    margin-left: 40%;
+}
+#principal{
+    padding-bottom: 0%;
+    margin-top: -10%;
+    margin-left: 68%;
+}
+#botao{
+    width: 35%;
+}
+}
+@media (max-width:700px){ 
+ #principal{
+        display: none;
+ }
+#search {
+        height: 10%;
+        width: 35%;
+        padding: 1%;
+        margin-top: -10%;
+        margin-bottom: 7%;
+        display: block;
+        margin-left: 60%;
+}
+.livros{
+    display: block;
+    width: 27%;
+    margin-top: -45%;
+}
+#botao{
+    width: 50%;
+}
+}
+@media (min-width:1650px){
+#principal{
+    font-size: 1%;
+    padding-bottom: 3%;
+    margin-top: -5%;
+}
+#mc{
+    margin-top: -5%;
+    margin-left: 63%;
+}
+.paginas > a{
+        margin: 3%;
+        font-size: medium;  
+ }
+#search {
+        margin-top: -6%;
+}
+#titulo{
+    margin-top: 2%;
+}
+.formulario{
+    width: 96%;
+}
+.livros{
+    margin-top: -24%;
+}
+img{
+    margin-top: -3%;
+}
+}

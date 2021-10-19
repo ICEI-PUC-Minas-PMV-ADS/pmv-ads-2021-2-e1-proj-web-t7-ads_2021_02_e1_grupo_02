@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Radar Literario</title>
+</head>
+<body>
+    <header>
+        <h1>Radar Literário</h1>
+        <input type="search" id="search" placeholder="AUTOR OU LIVRO...🔎">
+        <img src="imagens/17004.png" width="45px" alt="Icone de foto">
+        <nav>
+        <ul>
+            <li id="mc"><a href="pag07.html">Minha conta</a></li>
+                <ol>
+                    <li class="igual"><a href="#">Meus pedidos</a></li>
+                    <li class="igual"><a href="#">Minha conta</a></li>
+                    <li class="igual"><a href="#">Sair</a></li>
+                </ol>
+            <li id="principal"><a href="pag08.html">🤍Favoritos</a></li>
+        </ul>
+        <button id="pesquisa">&#9776;</button>
+            <div class="paginas">
+            <a id="estante" href="pag02.html" target="_blank">ESTANTE</a>
+            <a href="pag03.html" >LIVROS MAIS VENDIDOS</a>
+            <a href="pag04.html" >LIVROS POR IDIOMA</a>
+            <a href="pag05.html" >LIVROS POR GENERO</a>
+            <a href="pag06.html" >LIVROS RECOMENDADOS</a>
+            <a href="pag07.html" >DICAS DE LIVROS</a>
+            </div>   
+        </nav>
+    </header>
+    <main>
+        <h1 id="titulo">Minha conta</h1>
+        <form action="">
+            Nome <input type="text" name="nome" class="formulario" required><br><br>
+            Data de nascimento <input type="text" name="dt" class="formulario"><br><br>
+            Telefone <input type="tel" name="telefone" class="formulario"><br><br>
+            CPF/CNPJ <input type="cpf" name="cpf" class="formulario"><br><br>
+            Email <input type="email" name="email" class="formulario"><br><br>
+            <input type="button" value="EDITAR DADOS" id="botao">
+        </form>
+        
+    </main>
+    <footer>
+        <img class="livros" src="imagens/livros desenhos full.png" alt="Livros">
+    </footer>
+    
+</body>
+</html>
