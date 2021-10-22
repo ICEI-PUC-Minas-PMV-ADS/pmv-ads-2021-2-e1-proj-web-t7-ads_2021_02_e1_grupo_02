@@ -12,21 +12,26 @@ body {
   -o-background-size: cover; /* OPERA */
 }
 
-*{
-  margin: 0;
-  padding: 0;
+main {
+  background-color: rgba(245, 227, 224, 0.65);
+  max-width: 500px;
+  margin: 3px auto;
+  padding: 50px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #titulo {
   font-family: sans-serif;
   color: #FFFFFF;
-  margin-left: 7%;
+  margin-left: 3%;
 }
 
 #preencha {
   font-family: sans-serif;
   color: #FFFFFF;
-  margin-left: 8%;
+  margin-left: 3%;
 
 }
 
@@ -34,15 +39,6 @@ fieldset {
   border: 0;
 }
 
-body {
-  background-color: #F5E3E0;
-  font-family: sans-serif;
-  font-size: 1em;
-  color:#FFFFFF;
-  margin-left: 36%;
-  margin-top: 3%;
-  justify-content: center;
-}
 
 input, select, textarea, button {
   border-radius: 5px;
@@ -84,7 +80,7 @@ fieldset.grupo .class {
   text-shadow: 2px 1px 1px rgba(0,0,0,0.2);
   position: relative;
   margin-top: 3%;
-  margin-left: 3%;
+  margin-left: 10%;
   margin-right: 5%;
   transform: translate(-50%, -50%);
 }
