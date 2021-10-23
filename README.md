@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# RADAR LITERÁRIO
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
@@ -10,10 +10,10 @@ Plataforma de Compartilhamento de Livros
 
 ## Integrantes
 
-* Alison Pires
+* Alison Welton Pires de Oliveira
 * Álvaro Alfaya Fonseca
-* Dênio Gonçalves de Lima
-* Gabrielle Alcantara
+* Denio Gonçalves de Lima
+* Gabrielle Alcantara Reis Silva
 * Hestefani Romão Durães
 * Mychel Costa da Silva
 * Wendy Louise Maruch Artiaga
