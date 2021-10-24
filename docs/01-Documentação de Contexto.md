@@ -11,6 +11,7 @@ O escambo é um termo utilizado para a prática da troca, seja de serviços ou m
 Diante disso, levantou-se a necessidade de uma plataforma que permita aos usuários contribuir com informações de locais onde elas encontraram determinados gêneros de livros e que também permita a intermediação entre pessoas que desejam doar, trocar ou alugar livros.
 
 ## Problema
+
 Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade encontrada pelas pessoas em adquirir ou compartilhar livros de difícil aquisição, seja por falta de bibliotecas próximas de casa, por causa dos preços elevados cobrados em livros novos, por não conseguirem localizar em pesquisas virtuais lojas que vendam um gênero específico ou pela falta de unidades do livro disponíveis para a venda.
 
 ## Objetivos
@@ -19,10 +20,10 @@ O objetivo geral deste trabalho é a criação de uma plataforma que apresente u
 
 Como objetivos específicos, podemos ressaltar:
 
-●	Fornecer funcionalidades que permitam publicações de dicas de locais que vendam determinados exemplares de livros, com campos pré-definidos e obrigatórios;
-●	Fornecer funcionalidades que permitam publicações de livros para doação, troca ou venda, com campos pré-definidos e obrigatórios;
-●	Permitir a interação entre usuários interessados em doação, troca ou venda;
-●	Fornecer filtros nos campos de busca que permitam localizar informações sobre um livro específico de forma assertiva.
+- Fornecer funcionalidades que permitam publicações de dicas de locais que vendam determinados exemplares de livros, com campos pré-definidos e obrigatórios;
+- Fornecer funcionalidades que permitam publicações de livros para doação, troca ou venda, com campos pré-definidos e obrigatórios;
+- Permitir a interação entre usuários interessados em doação, troca ou venda;
+- Fornecer filtros nos campos de busca que permitam localizar informações sobre um livro específico de forma assertiva.
 
 ## Justificativa
 

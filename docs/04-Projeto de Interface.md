@@ -1,35 +1,102 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como,  acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+<div style="text-align: center">
+    <img src="img/userflow.png" alt="UserFlow" width="900"/>
+</div>
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+O diagrama apresentado na imagem mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente no Figma do projeto](https://www.figma.com/proto/ZkRNBV5rK7kqQRycZp5Yip/Projeto-Radar-Liter%C3%A1rio?scaling=scale-down-width).
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são  apresentadas  em  detalhes  nos  itens  que  se  seguem.  As  telas  do  sistema apresentam uma estrutura comum que é apresentada na figura abaixo.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+<table>
+    <tr>
+        <td>
+            <img src="img/wireframe.png" alt="Wireframe" width="500"/>
+        </td>
+        <td>
+            <p>
+                Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+                <ul>
+                    <li><b>Cabeçalho</b> - local onde são dispostos elementos fixos de identidade (logo); campo de busca, acesso à conta pessoal e favoritos;</li>
+                    <li><b>Menu</b> - elementos de navegação;</li>
+                    <li><b>Conteúdo</b> - apresenta o conteúdo da tela em questão.</li>
+                </ul>
+            </p>
+        </td>
+    </tr>
+</table>
+
+### Tela de home-page
+
+A tela  de home-page, é a tela inicial do website. Com base na estrutura padrão, o bloco de conteúdo apresenta a proposta e o conteúdo encontrado.
+- Componente de *Criar conta*, no qual o usuário insere seu email e é levado à tela de cadastro de conta;
+- Componente de *Entrar* que direciona o usuário ao login.
+
+<div style="text-align: center">
+    <img src="img/wireframes/Home%20Page.png" alt="Tela Inicial" width="900"/>
+    <p>
+        <i>(Feito por: Hestefani Romão)</i>
+    </p>
+</div>
+
+### Tela de Cadastro Inicial
+
+A tela de cadastro apresenta, no bloco de conteúdo, campos de preenchimento referentes a dados pessoais do usuário. O bloco do cabeçalho campo de busca, acesso à conta pessoal e aos favoritos.
+
+<div style="text-align: center">
+    <img src="img/wireframes/Tela%20de%20Cadastro.png" alt="Tela de Cadastro Inicial" width="900"/>
+    <p>
+        <i>(Feito por: Alison Pires)</i>
+    </p>
+</div>
+
+### Tela de Busca
+
+Assim que o usuário informa um tópico de pesquisa, ao clicar no ícone lupa ele é encaminhado para uma tela de busca com filtros, no qual ele pode direcionar os resultados quanto à localização, categoria, autor, ano de publicação, sinopse, estado de conservação e intenção da publicação (venda, troca, doação ou dica), conforme a figura a seguir.
+
+<div style="text-align: center">
+    <img src="img/wireframes/Tela%20de%20Busca.png" alt="Tela de Busca" width="900"/>
+    <p>
+        <i>(Feito por: Gabrielle Alcantara)</i>
+    </p>
+</div>
+
+### Tela de Visualização de Publicação
+
+Ao selecionar uma das opções de publicação resultantes da pesquisa, é possível visualizar detalhes das dicas ou oferta de livros associados ao tópico informado. Este resultado é apresentado na figura a seguir.
+
+<div style="text-align: center">
+    <img src="img/wireframes/Tela%20de%20Visualização%20de%20Publicação.png" alt="Tela de Visualização de Publicação" width="900"/>
+    <p>
+        <i>(Feito por: Mychel Costa)</i>
+    </p>
+</div>
+
+### Tela de Visualização de Favoritos
+
+A tela retratada na figura abaixo permite ao usuário visualizar todas as dicas e publicações favoritadas por ele. Pode ser acessada em todas as telas de navegação, através do ícone coração localizado no canto superior direito das telas.
+
+<div style="text-align: center">
+    <img src="img/wireframes/Tela%20de%20Visualização%20de%20Favoritos.png" alt="Tela de Visualização  de Favoritos" width="900"/>
+    <p>
+        <i>(Feito por: Álvaro Alfaya)</i>
+    </p>
+</div>
+
+### Tela de Perfil Pessoal
+
+A tela apresenta os dados pessoais de cadastro do usuário e pode ser acessada em todas as telas de navegação, através do ícone arredondado de boneco em pictograma, localizado no canto superior direito das telas.
+
+<div style="text-align: center">
+    <img src="img/wireframes/Tela%20de%20Perfil%20Pessoal.png" alt="Tela de Perfil Pessoal" width="900"/>
+    <p>
+        <i>(Feito por: Dênio Lima)</i>
+    </p>
+</div>
