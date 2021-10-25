@@ -32,13 +32,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-01| O site deve permitir ao usuário se cadastrar e mantê-lo no banco de dados | ALTA | 
 |RF-02| O usuário, no momento do cadastro, deve informar ao menos um meio de contato de forma obrigatória | ALTA |
-|RF-03| O site deve ter campos pré-definidos de publicação e de preenchimento obrigatório,  como fotos do livro, autor, categoria, local onde se encontra, ano de publicação, sinopse, estado de conservação, intenção da publicação (venda, troca, doação ou dica) | ALTA |
+|RF-03| O site deve ter campos pré-definidos de publicação e de preenchimento obrigatório, como fotos do livro, autor, categoria, local onde se encontra, ano de publicação, sinopse, estado de conservação, intenção da publicação (venda, troca, doação ou dica) | ALTA |
 |RF-04| O site deve oferecer uma funcionalidade de busca por filtro que permita ao usuário localizar livros específicos | MÉDIA |
 |RF-05| O site deve permitir visualizar todos os detalhes  da publicação do livro | MÉDIA |
 |RF-06| O site deve permitir a interação entre usuários por meio de comentários nas publicações | MÉDIA |
-|RF-07| O site deve exibir os livros mais buscados e os adicionados recentemente na página inicial | BAIXA |
-|RF-08| O site deve permitir ao usuário salvar dicas e livros preferidos | BAIXA
-|RF-09| O site deve permitir visualizar dicas e livros salvos como preferidos | BAIXA
+|RF-07| O site deve permitir ao usuário salvar e visualizar dicas e livros preferidos | BAIXA
 
 ### Requisitos não Funcionais
 

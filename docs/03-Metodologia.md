@@ -31,14 +31,14 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 * Scrum Master
-  * Wendy Louise Maruch Artiaga
+  * Gabrielle Alcantara Reis Silva
+  * <s>Wendy Louise Maruch Artiaga</s>
 * Product Owner
   * Mychel Costa da Silva
 * Equipe de Desenvolvimento
   * Alison Welton Pires de Oliveira
   * Álvaro Alfaya Fonseca
   * Denio Gonçalves de Lima
-  * Gabrielle Alcantara Reis Silva
   * Hestefani Romão Durães
 
 ### Processo
