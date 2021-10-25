@@ -16,7 +16,7 @@ Plataforma de Compartilhamento de Livros
 * Gabrielle Alcantara Reis Silva
 * Hestefani Romão Durães
 * Mychel Costa da Silva
-* Wendy Louise Maruch Artiaga
+* <s>Wendy Louise Maruch Artiaga</s>
 
 ## Orientador
 
