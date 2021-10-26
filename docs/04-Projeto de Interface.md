@@ -37,7 +37,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 A tela  de home-page, é a tela inicial do website. Com base na estrutura padrão, o bloco de conteúdo apresenta a proposta e o conteúdo encontrado.
 - Componente de *Criar conta*, no qual o usuário insere seu email e é levado à tela de cadastro de conta;
-- Componente de *Entrar* que direciona o usuário ao login.
+- Componente de *Entrar* que direciona o usuário ao "login".
 
 <div style="text-align: center">
     <img src="img/wireframes/Home%20Page.png" alt="Tela Inicial" width="900"/>
