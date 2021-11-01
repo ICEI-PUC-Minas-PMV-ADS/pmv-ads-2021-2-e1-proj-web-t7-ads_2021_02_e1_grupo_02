@@ -161,26 +161,36 @@ form{
     display: none;
 }
 @media (max-width:1115px){
-.paginas > a { display: none;}
-#pesquisa{
+    .paginas > a { display: flex;
+        color: rgb(255, 255, 255);
+        margin-left: 6%;  
+    }
+    .paginas {
+        line-height: 170%;
+        float: right;
+        background-color: #bf9a9a;
+        width: 20%;
+        display: none;
+    }
+    #pesquisa{
     display: block;
     border: none;
     background: #88505300;
-    margin-left: 2%;
+    margin-left: 87%;
     margin-top: -1%;
     font-size: x-large;
     color: #885053;
-}
-#pesquisa:hover{
+    }
+    #pesquisa:hover{
     background-color: rgb(255, 255, 255,0.2)
     
-}
-nav { 
+    }
+    nav { 
     margin-top: -3% 
-  }
-img {display: none;}
-#mc {display: none;}
-#search{ 
+    }
+    img {display: none;}
+    #mc {display: none;}
+    #search{ 
     height: 10%;
      width: 32%;
     padding: 1%;
@@ -188,15 +198,15 @@ img {display: none;}
     margin-bottom: 7%;
     display: block;
     margin-left: 40%;
-}
-#principal{
+    }
+    #principal{
     padding-bottom: 0%;
     margin-top: -10%;
     margin-left: 68%;
-}
-#botao{
+    }
+    #botao{
     width: 35%;
-}
+    }
 }
 @media (max-width:700px){ 
  #principal{
