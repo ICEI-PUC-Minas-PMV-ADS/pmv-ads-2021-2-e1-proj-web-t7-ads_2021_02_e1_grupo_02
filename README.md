@@ -49,3 +49,11 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
+---
+
+*Para atualizar o github pages execute comando abaixo na branch `main`* 
+
+``` bash
+git subtree push --prefix src origin gh-pages
+```
