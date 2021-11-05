@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="script.Js"></script>
     <title>Radar Literario</title>
 </head>
 <body>
@@ -22,8 +23,8 @@
                 </ol>
             <li id="principal"><a href="favoritos.html">🤍Favoritos</a></li>
         </ul>
-        <button id="pesquisa">&#9776;</button>
-            <div class="paginas">
+        <button id="pesquisa" onclick="clicar()">&#9776;</button>
+            <div class="paginas" id="submenu">
             <a id="estante" href="pag02.html" target="_blank">ESTANTE</a>
             <a href="pag03.html" >LIVROS MAIS VENDIDOS</a>
             <a href="pag04.html" >LIVROS POR IDIOMA</a>
@@ -48,6 +49,7 @@
     <footer>
         <img class="livros" src="img/livros desenhos full.png" alt="Livros">
     </footer>
+
     
 </body>
 </html>

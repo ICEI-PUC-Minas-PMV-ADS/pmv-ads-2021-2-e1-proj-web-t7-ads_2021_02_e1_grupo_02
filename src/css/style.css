@@ -170,7 +170,7 @@ form{
         float: right;
         background-color: #bf9a9a;
         width: 20%;
-        display: none;
+        display: none ;
     }
     #pesquisa{
     display: block;
@@ -222,7 +222,7 @@ form{
         margin-left: 60%;
 }
 .livros{
-    display: block;
+    display: none;
     width: 27%;
     margin-top: -45%;
 }
