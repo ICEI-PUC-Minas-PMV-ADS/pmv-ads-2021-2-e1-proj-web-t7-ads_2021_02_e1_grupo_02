@@ -298,6 +298,7 @@ img{
 .col-xs-2 {
     width: 20%;
     margin-top: 2%;
+    margin-left:1%;
     float: left;
     position: relative;
     min-height: 1px;
@@ -307,7 +308,10 @@ img{
     box-sizing: border-box;
 }
 .MenuList-list {
-    padding: 0;
-    list-style: none;
-    display: block;
+     display: block;
+    margin-left: -50%;
+}
+
+.MenuList-title {
+    margin-left: -75%;
 }
