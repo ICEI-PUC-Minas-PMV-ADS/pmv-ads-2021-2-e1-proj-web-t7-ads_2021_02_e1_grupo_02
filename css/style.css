@@ -295,3 +295,19 @@ img{
     margin-top: -3%;
 }
 }
+.col-xs-2 {
+    width: 20%;
+    margin-top: 2%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 15px;
+    display: block;
+    box-sizing: border-box;
+}
+.MenuList-list {
+    padding: 0;
+    list-style: none;
+    display: block;
+}
