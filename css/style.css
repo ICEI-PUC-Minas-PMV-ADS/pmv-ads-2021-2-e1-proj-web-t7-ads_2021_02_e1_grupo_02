@@ -299,10 +299,12 @@ img{
     margin-top: -3%;
 }
 }
+
+/*pagina de busca*/
 .col-xs-2 {
     width: 20%;
     margin-top: 2%;
-    margin-left:1%;
+    margin-left: 1%;
     float: left;
     position: relative;
     min-height: 1px;
@@ -311,11 +313,26 @@ img{
     display: block;
     box-sizing: border-box;
 }
-.MenuList-list {
-     display: block;
-    margin-left: -50%;
+.MenuList {
+    margin-left: auto;
+    text-align: left;
 }
-
+.MenuList-list {
+    display: block;
+}
 .MenuList-title {
-    margin-left: -75%;
+}
+.itemLivro {
+    width: 200px;
+    float: left;
+    padding: 20px 15px;
+}
+.itemLivro img {
+    margin: 0;
+    width: 200px;
+    height: 300px;
+}
+.itemLivro p {
+    margin: 0;
+    text-align: center;
 }

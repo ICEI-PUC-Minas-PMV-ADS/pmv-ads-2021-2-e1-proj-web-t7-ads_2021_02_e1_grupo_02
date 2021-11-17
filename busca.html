@@ -1,71 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/icon favicon full.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="script.Js"></script>
-    <title>Radar Literario</title>
-</head>
-<body>
-    <header>
-        <h1>Radar Literário</h1>
-        <input type="search" id="search" placeholder="AUTOR OU LIVRO...🔎">
-        <img src="img/17004.png" width="45px" alt="Icone de foto">
-        <nav>
-        <ul>
-            <li id="mc"><a href="meus_dados.html">Minha conta</a></li>
-                <ol>
-                    <li class="igual"><a href="#">Meus pedidos</a></li>
-                    <li class="igual"><a href="#">Minha conta</a></li>
-                    <li class="igual"><a href="#">Sair</a></li>
-                </ol>
-            <li id="principal"><a href="favoritos.html">🤍Favoritos</a></li>
-        </ul>
-            <button id="pesquisa" onclick="clicar()">&#9776;</button>
-            <div class="paginas" id="submenu">
-            <a id="estante" href="pag02.html" target="_blank">ESTANTE</a>
-            <a href="pag03.html" >LIVROS MAIS VENDIDOS</a>
-            <a href="pag04.html" >LIVROS POR IDIOMA</a>
-            <a href="pag05.html" >LIVROS POR GENERO</a>
-            <a href="#" >LIVROS RECOMENDADOS</a>
-            <a href="pag07.html" >DICAS DE LIVROS</a>
-            </div> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/icon favicon full.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/61454b5636.js" crossorigin="anonymous"></script>
+        <script src="js/db.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Radar Literário</h1>
+            <div id="search">
+                <input type="text" id="txtSearch" 
+                    placeholder="AUTOR OU LIVRO... 🔎" search="pesLivro">
+                <button>
+                    <i 
+                        class="fas fa-search">
+                    </i>
+                </button>
+            </div>
+            <img src="img/17004.png" width="45px" alt="Icone de foto">
+            <nav>
+                <ul>
+                    <li id="mc"><a href="meus_dados.html">Minha conta</a></li>
+                        <ol>
+                            <li class="igual"><a href="#">Meus pedidos</a></li>
+                            <li class="igual"><a href="#">Minha conta</a></li>
+                            <li class="igual"><a href="#">Sair</a></li>
+                        </ol>
+                    <li id="principal">
+                        <a href="favoritos.html">
+                            <i class="fas fa-heart"></i> Favoritos
+                        </a>
+                    </li>
+                </ul>
+                <button id="pesquisa" onclick="clicar()">&#9776;</button>
+                <div class="paginas" id="submenu">
+                    <a id="estante" href="pag02.html" target="_blank">ESTANTE</a>
+                    <a href="pag03.html">LIVROS MAIS VENDIDOS</a>
+                    <a href="pag04.html">LIVROS POR IDIOMA</a>
+                    <a href="pag05.html">LIVROS POR GENERO</a>
+                    <a href="#" >LIVROS RECOMENDADOS</a>
+                    <a href="pag07.html">DICAS DE LIVROS</a>
+                </div>   
+            </nav>
+        </header>
+        <main>
             <div class="col-xs-2">
                 <nav class="MenuList">
                     <span class="MenuList-title">Categorias</span>
                     <ul class="MenuList-list">
                         <li class="MenuList-link" href="/ficcaocientifica/" title="Ficção Científica">Ficção Científica</a>
-                           </li>
-                            <li class="MenuList-link" href="/drama/" title="Drama">Drama</a>
-                           </li>
-                            <li class="MenuList-link" href="/fantasia/" title="Fantasia">Fantasia</a>
-                           </li>
-                            <li class="MenuList-link" href="/misterioesuspense/" title="Mistério e Suspense">Mistério e Suspense</a>
-                           </li>
-                             <li class="MenuList-link" href="/mangas/" title="Mangás">Mangás</a>
-                           </li>
-                            <li class="MenuList-link" href="/mangas/" title="Mangás">Mangás</a>
-                           </li>
-                           <li class="MenuList-link" href="/quadrinhos/" title="Quadrinhos">Quadrinhos</a>
-                           </li>
-                           <li class="MenuList-link" href="/politica/" title="Política">Política</a>
-                           </li>
-                           <li class="MenuList-link" href="/administracaoenegocios/" title="Administração e Negócios">Administração e Negócios</a>
-                           </li>
+                        </li>
+                        <li class="MenuList-link" href="/drama/" title="Drama">Drama</a>
+                        </li>
+                        <li class="MenuList-link" href="/fantasia/" title="Fantasia">Fantasia</a>
+                        </li>
+                        <li class="MenuList-link" href="/misterioesuspense/" title="Mistério e Suspense">Mistério e Suspense</a>
+                        </li>
+                        <li class="MenuList-link" href="/mangas/" title="Mangás">Mangás</a>
+                        </li>
+                        <li class="MenuList-link" href="/mangas/" title="Mangás">Mangás</a>
+                        </li>
+                        <li class="MenuList-link" href="/quadrinhos/" title="Quadrinhos">Quadrinhos</a>
+                        </li>
+                        <li class="MenuList-link" href="/politica/" title="Política">Política</a>
+                        </li>
+                        <li class="MenuList-link" href="/administracaoenegocios/" title="Administração e Negócios">Administração e Negócios</a>
+                        </li>
                     </ul>
-            </div>  
-        </nav>
-    </header>
-    <main>
-
-
-    </main>
-    <footer>
-        
-    </footer>
-        
+                </nav>
+            </div> 
+            <div id="pesLivro"></div>
+        </main>
     </body>
-</html>   
+    <script>
+        var exibirLivro = '';
+        for (i=0; i<livros.length; i++) {
+            exibirLivro += `<div class="itemLivro" nome="${livros[i].titulo}" onclick="selecionarLivro(${i})">
+                                <a href="livro.html">
+                                    <img src="${livros[i].capa}">
+                                    <br>
+                                    <p>${livros[i].titulo}</p>
+                                    <br>
+                                </a>
+                            </div>`
+            ;
+        }
+        document.getElementById('pesLivro').innerHTML = exibirLivro;
+    </script>
+    <script 
+        src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js">
+    </script>
+</html>
