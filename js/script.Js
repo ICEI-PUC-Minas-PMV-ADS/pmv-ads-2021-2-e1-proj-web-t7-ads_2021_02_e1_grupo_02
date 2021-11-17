@@ -7,3 +7,7 @@ function clicar() {
         submenu.style.display = 'none'
     }
 }
+
+function selecionarLivro(x) {
+    localStorage.setItem('idLivro', x)
+}
