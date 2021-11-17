@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/icon favicon full.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/61454b5636.js" crossorigin="anonymous"></script>
+        <script src="js/db.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Radar Literário</h1>
+            <div id="search">
+                <input type="text" id="txtSearch" 
+                    placeholder="AUTOR OU LIVRO... 🔎" search="pesLivro">
+                <button>
+                    <i 
+                        class="fas fa-search">
+                    </i>
+                </button>
+            </div>
+            <img src="img/17004.png" width="45px" alt="Icone de foto">
+            <nav>
+                <ul>
+                    <li id="mc"><a href="meus_dados.html">Minha conta</a></li>
+                        <ol>
+                            <li class="igual"><a href="#">Meus pedidos</a></li>
+                            <li class="igual"><a href="#">Minha conta</a></li>
+                            <li class="igual"><a href="#">Sair</a></li>
+                        </ol>
+                    <li id="principal">
+                        <a href="favoritos.html">
+                            <i class="fas fa-heart"></i> Favoritos
+                        </a>
+                    </li>
+                </ul>
+                <div class="paginas">
+                    <a id="estante" href="pag02.html" target="_blank">ESTANTE</a>
+                    <a href="pag03.html">LIVROS MAIS VENDIDOS</a>
+                    <a href="pag04.html">LIVROS POR IDIOMA</a>
+                    <a href="pag05.html">LIVROS POR GENERO</a>
+                    <a href="#" >LIVROS RECOMENDADOS</a>
+                    <a href="pag07.html">DICAS DE LIVROS</a>
+                </div>   
+            </nav>
+        </header>
+        <main>
+            <div id="pesLivro"></div>
+        </main>
+    </body>
+    <script>
+        var exibirLivro = '';
+        for (i=0; i<livros.length; i++) {
+            exibirLivro += `<div class="itemLivro" nome="${livros[i].titulo}" onclick="selecionarLivro(${i})">
+                                <a href="livro.html">
+                                    <img src="${livros[i].capa}">
+                                    <br>
+                                    <p>${livros[i].titulo}</p>
+                                    <br>
+                                </a>
+                            </div>`
+            ;
+        }
+        document.getElementById('pesLivro').innerHTML = exibirLivro;
+    </script>
+    <script 
+        src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js">
+    </script>
+</html>
