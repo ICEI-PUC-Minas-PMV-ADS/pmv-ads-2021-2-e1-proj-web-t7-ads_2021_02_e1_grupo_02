@@ -114,7 +114,7 @@ img{
     width: 22%;
     padding: 1%;
     margin-left: 32%;
-    border-radius: 3%;
+    border-radius: 15px;
     border: none;
     margin-top: -6%;
     margin-bottom: -1%;
@@ -150,6 +150,7 @@ form{
     border: none;
     width: 23%;
     padding: 2%;
+    border-radius: 10px;
     transition: 0,25;
 }
 #botao:hover{
