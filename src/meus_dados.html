@@ -37,15 +37,15 @@
     </header>
     <main>
         <h1 id="titulo">Minha conta</h1>
+        <div id="validacao">resposta</div>
         <form action="">
-            Nome <input type="text" name="nome" class="formulario" required><br><br>
-            Data de nascimento <input type="text" name="dt" class="formulario"><br><br>
-            Telefone <input type="tel" name="telefone" class="formulario"><br><br>
-            CPF/CNPJ <input type="cpf" name="cpf" class="formulario"><br><br>
-            Email <input type="email" name="email" class="formulario"><br><br>
+            Nome <input type="text" name="nome" id="nome" class="formulario" placeholder="Digite seu nome completo" required minlength="7" ><br><br>
+            Data de nascimento <input type="text" name="dt" id="dtnascimento" class="formulario" placeholder="Digite sua data de nascimento" required minlength="10" maxlength="10" ><br><br>
+            Telefone <input type="tel" name="telefone" id="tel" class="formulario" placeholder="Digite seu numero de telefone" required minlength="9" maxlength="12" ><br><br>
+            CPF/CNPJ <input type="cpf" name="cpf" id="cpf" class="formulario" placeholder="Digite seu numero de cpf" required minlength="14" maxlength="14" ><br><br>
+            Email <input type="email" name="email" id="email" class="formulario" placeholder="Digite seu email" required ><br><br>
             <input type="button" value="ENVIAR DADOS" id="botao" onclick="cadastrar()">
         </form>
-        
     </main>
     <footer>
         <img class="livros" src="img/livros desenhos full.png" alt="Livros">
