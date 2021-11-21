@@ -337,11 +337,11 @@ img{
     
 }
 .MenuList-list {
-    display: block;
+    display: inline-block;
     color: #000000;
     background-color: #F6EFEF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
    
 }
 .MenuList-title {
