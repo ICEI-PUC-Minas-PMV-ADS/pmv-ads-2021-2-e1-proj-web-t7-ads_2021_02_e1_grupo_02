@@ -20,7 +20,7 @@ function cadastrar(){
     var email = document.getElementById('email')
     var validar = document.getElementById('validacao')
 
-   if (nome.value.length < 7) {
+   if (nome.value.length < 10) {
         nome.style.backgroundColor = '#eb9f9f'
         alert('Nome inválido!')
         nome.focus()
