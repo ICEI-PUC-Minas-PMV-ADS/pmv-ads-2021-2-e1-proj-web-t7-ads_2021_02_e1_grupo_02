@@ -119,4 +119,7 @@ function carregar() {
     var favoritos = JSON.parse(localStorage.getItem('exibirLivro1'))
     document.getElementById('livrosfavoritos').innerHTML = favoritos
 
-}    
+}  
+function editar() {
+    location.href ='meus_dados.html'   
+}  
