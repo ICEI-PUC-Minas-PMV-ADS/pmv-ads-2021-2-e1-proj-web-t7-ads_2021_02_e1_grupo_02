@@ -106,6 +106,11 @@ for (i=0; i<livros.length; i++) {
     ;
 }
 
+function capturar() {
+        
+        localStorage.setItem('exibirLivro1',JSON.stringify(exibirLivro))
+        var favoritos = JSON.parse(localStorage.getItem('exibirLivro1'))
+}
 
 function carregar() {
     if (localStorage.nome){
