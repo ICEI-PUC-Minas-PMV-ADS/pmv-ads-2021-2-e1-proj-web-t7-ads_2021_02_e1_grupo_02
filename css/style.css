@@ -48,6 +48,7 @@ padding: -1%;
    font-size: 1%;
    padding-bottom: 0%;
    margin-top: -6%;
+   margin-left: -6%;
    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
    
 }
@@ -66,16 +67,15 @@ padding: -1%;
 #mc {
     color: white;
     margin-top:-5%;
-    margin-left:65%;
+    margin-left:69%;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.589);
     
 }
     
 
-ol{ 
-    margin-top: -95px;
-    margin-left: -120px;
-    list-style-type: none;
+#saudar{ 
+    margin-top: -27%;
+    margin-left: -173%;
 }
 
 img{
@@ -316,10 +316,15 @@ form{
     font-size: 1%;
     padding-bottom: 3%;
     margin-top: -5%;
+    margin-left: -8%;
+}
+#saudar {
+    margin-top: -33%;
+    margin-left: -220%;
 }
 #mc{
     margin-top: -5%;
-    margin-left: 63%;
+    margin-left: 66%;
 }
 .paginas > a{
         margin: 3%;

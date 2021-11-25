@@ -163,6 +163,8 @@ function capturar() {
 }
 
 function carregar() {
+    if(localStorage.nome)
+    document .getElementById('saudar').innerHTML = localStorage.nome
     if (localStorage.nome){
         document.getElementById('usuario').innerHTML = localStorage.nome
     }
