@@ -31,7 +31,7 @@ function cadastrar(){
         alert('Data de nascimento inválida!')
         dtNasci.focus()
         return false
-   } else if (tel.value.length < 9) {
+   } else if (isNaN(tel.value) || tel.value.length < 9) {
         dtNasci.style.backgroundColor = 'transparent'
         tel.style.backgroundColor = '#eb9f9f'
         alert('Numero de telefone inválido!')
