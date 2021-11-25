@@ -10,7 +10,7 @@
         <script src="js/db.js"></script>
         <script src="js/script.js"></script>
     </head>
-    <body>
+    <body onload="carregar()">
         <header>
             <h1>Radar Literário</h1>
             <div id="search">
@@ -27,9 +27,7 @@
                 <ul>
                     <li id="mc"><a href="meus_dados.html">Minha conta</a></li>
                         <ol>
-                            <li class="igual"><a href="#">Meus pedidos</a></li>
-                            <li class="igual"><a href="#">Minha conta</a></li>
-                            <li class="igual"><a href="#">Sair</a></li>
+                            <ol id="saudar" ></ol><br>
                         </ol>
                     <li id="principal">
                         <a href="favoritos.html">
