@@ -365,8 +365,17 @@ img{
     padding-right: 15px;
     display: flex;
     box-sizing: border-box;
-  
       
+}
+
+.MenuList-link a { 
+    color: inherit;
+    text-decoration: none;
+      
+ }
+
+.MenuList-link:hover {
+    color: #bf9a9a;
 }
 .MenuList {
     margin-left: auto;
@@ -375,9 +384,10 @@ img{
     font-family: 'Open Sans', sans-serif;
     
 }
+
 .MenuList-list {
     display: inline-block;
-    color: #000000;
+    color: #000;
     background-color: #F6EFEF;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
