@@ -13,8 +13,8 @@
 <body>
     <main>
         <div>
-            <h1 id="titulo">Crie sua conta</h1>
-            <p id="preencha">Preencha todos os campos</p> <br>
+            <h2 id="titulo">Crie sua conta</h2>
+            <h3 id="preencha">Preencha todos os campos</h3>
         </div>
         <form>
             <fieldset class="grupo">
@@ -30,11 +30,13 @@
 
                 <div class="campo">
                     <label for="senha">Crie uma senha</label>
-                    <input type="text" name="senha" id="senha" placeholder="Digite sua senha" required>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required> <br>
+                    <input type="checkbox" onclick=mostrarOcultarS()> Mostrar senha
                 </div>
+
                 <div class="campo">
                     <label for="valsenha">Confirme a senha</label>
-                    <input type="text" name="valsenha" id="valsenha" placeholder="Valide sua senha" required>
+                    <input type="password" name="valsenha" id="valsenha" placeholder="Valide sua senha" required>
                 </div>
 
             </fieldset>
