@@ -9,7 +9,7 @@
     <script src="js/script.Js"></script>
     <title>Radar Literario</title>
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Radar Literário</h1>
         <input type="search" id="search" placeholder="AUTOR OU LIVRO...🔎">
@@ -18,19 +18,17 @@
         <ul>
             <li id="mc"><a href="meus_dados.html">Minha conta</a></li>
                 <ol>
-                    <li class="igual"><a href="#">Meus pedidos</a></li>
-                    <li class="igual"><a href="#">Minha conta</a></li>
-                    <li class="igual"><a href="#">Sair</a></li>
+                    <ol id="saudar" ></ol><br>
                 </ol>
             <li id="principal"><a href="favoritos.html">🤍Favoritos</a></li>
-            </ul>
-            <button id="pesquisa" onclick="clicar()">&#9776;</button>
+        </ul>
+        <button id="pesquisa" onclick="clicar()">&#9776;</button>
             <div class="paginas" id="submenu">
             <a id="estante" href="busca.html" target="_blank">ESTANTE</a>
             <a href="pag03.html" >LIVROS MAIS VENDIDOS</a>
             <a href="pag04.html" >LIVROS POR IDIOMA</a>
             <a href="pag05.html" >LIVROS POR GENERO</a>
-            <a href="#" >LIVROS RECOMENDADOS</a>
+            <a href="pag06.html" >LIVROS RECOMENDADOS</a>
             <a href="pag07.html" >DICAS DE LIVROS</a>
             </div>   
         </nav>
