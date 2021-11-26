@@ -168,6 +168,10 @@ function carregar() {
     if (localStorage.nome){
         document.getElementById('usuario').innerHTML = localStorage.nome
     }
+    if(localStorage.nomecadastro){
+        document.getElementById('nome').innerHTML = localStorage.nomecadastro
+        console.log('nome')
+    }
     var favoritos = JSON.parse(localStorage.getItem('exibirLivro1'))
     document.getElementById('livrosfavoritos').innerHTML = favoritos
 

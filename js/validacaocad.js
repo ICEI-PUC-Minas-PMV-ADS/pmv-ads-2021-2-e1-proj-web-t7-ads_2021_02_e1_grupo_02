@@ -7,33 +7,39 @@ function mostrarOcultarS(){
     }
 }
 function validacao(){
-    var nome  = document.getElementById('nome');
-    var email = document.getElementById('email');
+    var nomecadastro  = document.getElementById('nome');
+    var emailcadastro = document.getElementById('email');
     var senha = document.getElementById('senha');
     var valsenha  = document.getElementById('valsenha');
 
-    if(nome.value.length < 7){
-        nome.style.backgroundColor = '#eb9f9f'
+    if(nomecadastro.value.length < 7){
+        nomecadastro.style.backgroundColor = '#eb9f9f'
         alert("Obrigatório informar o seu nome completo!");
-        nome.focus();
+        nomecadastro.focus();
         return false;
-    }else if(email.value.length <7){
-        nome.style.backgroudColor = 'transparent';
-        email.style.backgroudColor = "#ff6459";
+    }else if(emailcadastro.value.indexOf('@')== -1 || email.value.indexOf('.') == -1){
+        nomecadastro.style.backgroudColor = 'transparent';
+        emailcadastrostyle.backgroudColor = "#ff6459";
         alert("Obrigatório informar o email!");
-        email.focus();
+        emailcadastro.focus();
         return false;
-    }else if(senha.value.length <8){
-        email.style.backgroudColor = 'transparent';
+    }else if(senha.value.length < 8){
+        emailcadastro.style.backgroudColor = 'transparent';
         senha.style.backgroudColor = "#ff6459";
         alert("Obrigatório informar uma senha!");
         senha.focus();
         return false;
-    }else if(valsenhavalue.length <8){
+    }else if(valsenha.value != senha.value){
         senha.style.backgroudColor = 'transparent';
         valsenha.style.backgroudColor = "#ff6459";
         alert("Obrigatório confirmar sua senha!");
         valsenha.focus();
         return false;
+    }
+    else{
+        valsenha.style.backgroudColor = 'transparent';
+        localStorage.nomecadastro = document.getElementById('nome').value
+        localStorage.emailcadastro = document.getElementById('email').value
+        location.href = 'busca.html'
     }
 }
