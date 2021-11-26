@@ -69,16 +69,6 @@ function carregar() {
     if (localStorage.nome){
         document.getElementById('usuario').innerHTML = localStorage.nome;
     }
-<<<<<<< HEAD
-    if(localStorage.nomecadastro){
-        document.getElementById('nome').innerHTML = localStorage.nomecadastro
-        console.log('nome')
-    }
-    var favoritos = JSON.parse(localStorage.getItem('exibirLivro1'))
-    document.getElementById('livrosfavoritos').innerHTML = favoritos
-
-=======
->>>>>>> 4dff4d9b7f9d86dee022750a16c806af68286ac6
 }  
 
 function editar() {
