@@ -17,21 +17,18 @@
                 <input type="text" id="txtSearch" 
                     placeholder="AUTOR OU LIVRO... 🔎" search="pesLivro">
                 <button>
-                    <i 
-                        class="fas fa-search">
-                    </i>
+                    <span class="fas fa-search"></span>
                 </button>
             </div>
             <img src="img/17004.png" width="45px" alt="Icone de foto">
             <nav>
                 <ul>
-                    <li id="mc"><a href="meus_dados.html">Minha conta</a></li>
-                        <ol>
-                            <ol id="saudar" ></ol><br>
-                        </ol>
+                    <li id="mc">
+                        <a href="meus_dados.html" id="saudar">Minha conta</a>
+                    </li>
                     <li id="principal">
                         <a href="favoritos.html">
-                            <i class="fas fa-heart"></i> Favoritos
+                            <span class="fas fa-heart"></span> Favoritos
                         </a>
                     </li>
                 </ul>
@@ -77,29 +74,26 @@
                         </li>
                     </ul>
                 </nav>
-            </div> 
-            <div id="pesLivro"></div>
-            <section id="secbuton">
-                <div id="btn1"> <input type="button" value="&#129293;" onclick="capturar()"></div>
-            </section>
+            </div>
+            <div id="pesLivro"></div> 
         </main>
+        <script>
+            var exibirLivro = '';
+            for (i=0; i<livros.length; i++) {
+                exibirLivro += `<div class="itemLivro" nome="${livros[i].titulo}" onclick="selecionarLivro(${i})">
+                                    <a href="livro.html">
+                                        <img src="${livros[i].capa}">
+                                        <br>
+                                        <p>${livros[i].titulo}</p>
+                                        <br>
+                                    </a>
+                                </div>`
+                ;
+            }
+            document.getElementById('pesLivro').innerHTML = exibirLivro;
+        </script>
+        <script 
+            src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js">
+        </script>
     </body>
-    <script>
-        var exibirLivro = '';
-        for (i=0; i<livros.length; i++) {
-            exibirLivro += `<div class="itemLivro" nome="${livros[i].titulo}" onclick="selecionarLivro(${i})">
-                                <a href="livro.html">
-                                    <img src="${livros[i].capa}">
-                                    <br>
-                                    <p>${livros[i].titulo}</p>
-                                    <br>
-                                </a>
-                            </div>`
-            ;
-        }
-        document.getElementById('pesLivro').innerHTML = exibirLivro;
-    </script>
-    <script 
-        src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js">
-    </script>
 </html>
