@@ -33,7 +33,7 @@ nav{
 }
 
 .paginas >:hover{
-    text-decoration: underline;
+    
     background-color: rgb(255, 255, 255,0.2);
     
 }
@@ -60,7 +60,7 @@ padding: -1%;
     
 }
 #principal > a:hover{
-    text-decoration: underline;
+    
     background-color: rgb(255, 255, 255,0.2);
     color: #ffffff;
 }
@@ -90,7 +90,7 @@ img{
     
 }
 #mc > a:hover{
-    text-decoration: underline;
+    
     background-color: rgb(255, 255, 255,0.2);
     color: rgb(255, 255, 255)
 }
