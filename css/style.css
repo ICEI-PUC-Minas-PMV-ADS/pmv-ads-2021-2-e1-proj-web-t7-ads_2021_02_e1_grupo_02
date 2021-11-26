@@ -48,7 +48,7 @@ padding: -1%;
    font-size: 1%;
    padding-bottom: 0%;
    margin-top: -6%;
-   margin-left: -6%;
+   margin-left: -12%;
    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
    
 }
@@ -67,20 +67,20 @@ padding: -1%;
 #mc {
     color: white;
     margin-top:-5%;
-    margin-left:69%;
+    margin-left:66%;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.589);
     
 }
     
 
 #saudar{ 
-    margin-top: -27%;
-    margin-left: -173%;
+    margin-top: -22%;
+    margin-left: -177%;
 }
 
 img{
     margin-top: -4%;
-    margin-left: 68%;
+    margin-left: 66%;
     margin-bottom: 3%;
     display: flex;
 }
@@ -289,6 +289,16 @@ form{
         margin-left: 68%;
     }
 }
+@media (max-width:1300px){
+    #saudar{ 
+        margin-top: -24%;
+        margin-left: -166%;
+    }
+    #mc{
+        margin-top: -6%;
+        margin-left:68%;
+    }
+}    
 @media (max-width:700px){ 
  #principal{
         display: none;
