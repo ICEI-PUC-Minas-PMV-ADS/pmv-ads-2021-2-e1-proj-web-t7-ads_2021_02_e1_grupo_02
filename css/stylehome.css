@@ -1,4 +1,6 @@
 body {
+  overflow-x: hidden;
+  text-align: center;
   background: url("/src/img/fundo.jpeg") no-repeat center center fixed;
 
   background-size: cover;
@@ -15,50 +17,50 @@ body {
 h1 {
   font-family: 'Prata', sans-serif;
   color: white;
-  width: 392px;
-  height: 56px;
   font-size: 38px;
   font-weight: lighter;
+  padding-right: 70%;
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 button {
   background-color: #d04040;
-  width: 168px;
-  height: 42px;
+  width: 120px;
+  height: 35px;
   padding: 0px;
   border: 0px;
   font-family: 'Zilla Slab', sans-serif;
-  font-size: 30px;
+  font-size: 100%;
+  text-transform: uppercase;
   font-weight: lighter;
   color: white;
   border-radius: 10px;
   cursor: pointer;
 }
 .Entrar {
-  margin-top: -3.5%;
-  margin-left: 90%;
+  margin-top: -7%;
+  float: right;
+  margin-right: 1%;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
   color: white;
-  width: 1000px;
-  height: 57px;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 25%;
+  margin: auto;
   margin-top: 10%;
+  text-transform: uppercase;
 }
 
-p {
+h3 {
   color: white;
   font-family: 'Zilla Slab', sans-serif;
   width: 700px;
   height: 38px;
   font-size: 32px;
   font-weight: lighter;
-  margin-left: 35%;
+  margin: auto;
 }
 
 section {
@@ -68,10 +70,20 @@ section {
   height: 30px;
   font-size: 25px;
   font-weight: lighter;
-  margin-left: 32%;
-  margin-top: 5%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .CriarConta {
-  margin-left: 45%;
+  margin-left:auto;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 1%;
 }

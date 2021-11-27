@@ -15,8 +15,8 @@
             <h1>Radar Literário</h1>
             <div id="search">
                 <input type="text" id="txtSearch" 
-                    placeholder="AUTOR OU LIVRO... 🔎" search="pesLivro">
-                <button>
+                    placeholder="Pesquise o nome de um livro... 📕" search="pesLivro">
+                <button id="btnSearch">
                     <span class="fas fa-search"></span>
                 </button>
             </div>
@@ -44,16 +44,23 @@
         </header>
         <main>
             <div id="descLivro"></div>
+            <form action="#" id="formComent">
+                <label for="mensagem">Comentar:</label>
+                <br>
+                <textarea id="mensagem" name="mensagem" placeholder="Deixe seu comentário sobre este livro... ;)" required maxlength="25"></textarea>
+                <br>
+                <br>
+                <button>ENVIAR <span class="far fa-comment-dots"></span></button>
+            </form>
         </main>
         <script>
             let id = localStorage.idLivro;
-            var desc = `<div id="titulo">
-                            <p>${livros[id].titulo}</p>
-                            <br>
+            var desc = `<div id="nomes">
+                            <h2>${livros[id].titulo}</h2>
                             <p>${livros[id].autor}</p>
                             <br>
                         </div>
-                        <button onclick="favorito(${id})">
+                        <button id="addFav" onclick="favorito(${id})">
                             <span class="fas fa-heart"></span>
                         </button>
                         <div id="capa">
@@ -61,15 +68,12 @@
                             <br>
                         </div>
                         <div id="descricao">
-                            <p>${livros[id].sinopse}</p>
+                            <p><i>"${livros[id].sinopse}"</i></p>
                             <br>
-                            <p>${livros[id].isbn}</p>
-                            <br>
-                            <p>${livros[id].ano}</p>
-                            <br>
-                            <p>${livros[id].idioma}</p>
-                            <br>
-                            <p>${livros[id].categoria}</p>
+                            <p><b>Idioma:</b> ${livros[id].idioma}</p>
+                            <p><b>ISBN:</b> ${livros[id].isbn}</p>
+                            <p><b>Publicado em:</b> ${livros[id].ano}</p>
+                            <p><b>Categorias:</b> ${livros[id].categoria}</p>
                             <br>
                         </div>`
             ;

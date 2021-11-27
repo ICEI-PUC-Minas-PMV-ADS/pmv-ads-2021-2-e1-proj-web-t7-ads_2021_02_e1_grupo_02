@@ -14,7 +14,13 @@
 <body id="favoritos" onload="carregar()">
     <header>
         <h1>Radar Literário</h1>
-        <input type="search" id="search" placeholder="AUTOR OU LIVRO...🔎" search="pesLivro">
+        <div id="search">
+            <input type="text" id="txtSearch" 
+                placeholder="Pesquise o nome de um livro... 📕" search="pesLivro">
+            <button id="btnSearch">
+                <span class="fas fa-search"></span>
+            </button>
+        </div>
         <img src="img/17004.png" width="45px" alt="Icone de foto">
         <nav>
         <ul>

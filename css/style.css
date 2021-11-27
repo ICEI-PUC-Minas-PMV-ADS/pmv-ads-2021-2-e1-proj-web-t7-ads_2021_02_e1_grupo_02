@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-
+    overflow-x: hidden;
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -109,19 +109,7 @@ img{
     
 }
 
-#search {   
-    height: 0%;
-    width: 22%;
-    padding: 1%;
-    margin-left: 32%;
-    border-radius: 15px;
-    border: none;
-    margin-top: -6%;
-    margin-bottom: -1%;
-    display: flex;
-    outline: none; 
-}
-form{
+#formMeusDados{
     background-color:#f5e3e02b;
     font-family: fantasy;
     width: 45%;
@@ -267,15 +255,6 @@ form{
     }
     img {display: none;}
     #mc {display: none;}
-    #search{ 
-    height: 10%;
-     width: 32%;
-    padding: 1%;
-    margin-top: -7%;
-    margin-bottom: 7%;
-    display: block;
-    margin-left: 40%;
-    }
     #principal{
     padding-bottom: 0%;
     margin-top: -10%;
@@ -303,15 +282,7 @@ form{
  #principal{
         display: none;
  }
-#search {
-        height: 10%;
-        width: 35%;
-        padding: 1%;
-        margin-top: -10%;
-        margin-bottom: 7%;
-        display: block;
-        margin-left: 60%;
-}
+
 .livros{
     display: none;
     width: 27%;
@@ -340,9 +311,6 @@ form{
         margin: 3%;
         font-size: medium;  
  }
-#search {
-        margin-top: -6%;
-}
 #titulo{
     margin-top: 2%;
 }
@@ -422,6 +390,10 @@ img{
     width: 200px;
     height: 300px;
 }
+.itemLivro img:hover {
+    transform: scale(1.1);
+    transition: all 0.25s ease-in;
+}
 .itemLivro p {
     margin: 0;
     text-align: center;
@@ -430,3 +402,90 @@ img{
     display: flex;
 }
 
+/*pagina livro.html*/
+#search{
+    background-color:#ffffff;
+    border:solid 2px #130303;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    margin-left: 32%;
+    margin-top: -6%;
+    display: flex;
+  }
+  
+  #txtSearch{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:small;
+    border:none;
+    height:32px;
+    width:242px;
+  }
+  
+  #btnSearch{
+    border:none;
+    float: right;
+    height:32px;
+    border-radius:0 5px 5px 0;
+    width:51px;
+    background:#130303;
+    color: #ffffff;
+  }
+  
+
+#descLivro {
+    margin: 1%;
+    padding-top: 2%;
+}
+#titulo {
+    margin: 0;
+}
+#capa {
+    float: left;
+}
+#capa img {
+    margin: 0;
+    width: 350px;
+    height: 450px;
+}
+#descricao {
+    margin-left: 30%;
+    padding-top: 1%;
+}
+#addFav {
+    margin-top: 1.5%;
+    margin-left: -4%;
+    background-color: gray;
+    color: whitesmoke;
+    border: none;
+    padding: 0.7%;
+    border-radius: 5px;
+}
+#addFav:hover{
+    background-color: #d13b3bf7;
+    color:rgb(151, 4, 4); 
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+}
+#addFav:focus{
+    background-color: #d13b3bf7;
+    color:rgb(151, 4, 4); 
+}
+#formComent{
+    background-color:#f5e3e02b;
+    font-family: fantasy;
+    width: 90%;
+    padding: 3% 1% 2% 3%;
+    margin: 10% 2% 1% 2%;
+    border-radius: 20px;
+    box-shadow: 7px 6px 5px #00000052;
+    outline: none;
+}
+
+#formComent textarea{
+    width: 97%;
+    height: 3%;
+    resize: vertical;
+}
