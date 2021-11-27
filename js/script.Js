@@ -60,11 +60,22 @@ function cadastrar(){
         
     }
 }
-
+function exibir() {
+    if (localStorage.nomecadastro) {
+        document.getElementById('nome').value = localStorage.nomecadastro
+    }
+    if (localStorage.emailcadastro) {
+        document.getElementById('email').value = localStorage.emailcadastro
+    }  
+    if (localStorage.nome)
+        document.getElementById('saudar').innerHTML = localStorage.nome
+}
 
 
 function carregar() {
-    if(localStorage.nome)
+    
+
+    if (localStorage.nome)
         document.getElementById('saudar').innerHTML = localStorage.nome;
     if (localStorage.nome){
         document.getElementById('usuario').innerHTML = localStorage.nome;
