@@ -20,7 +20,7 @@ header{
 }
 nav{
     background-color:#BF9A9A;
-    padding: 0%;
+    padding: 0.5%;
     text-align: center;
     margin-bottom:0% ;
 }
@@ -43,14 +43,16 @@ list-style: none;
 display: flex;
 justify-content: space-evenly;
 padding: -1%;
+align-items: center;
 }
 #principal{
    font-size: 1%;
    padding-bottom: 0%;
-   margin-top: -6%;
+   margin-top: -5.5%;
    margin-left: -8%;
    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
    margin-right: -9%;
+   display: flex;
 }
 #principal > a{
     text-decoration: none;
@@ -68,23 +70,21 @@ padding: -1%;
     color: white;
     margin-top:-5%;
     margin-left:56%;
+    display: flex;
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.589);
-    
+    align-items: center;
 }
     
-
-
-
 img{
-    margin-top: -4%;
-    margin-left: 66%;
-    margin-bottom: 3%;
+    width: 50px;
+    height: auto;
     display: flex;
 }
 #mc > a{
     color: rgb(253, 246, 246);
     text-decoration: none;
-    
+    margin-left: 10px;
+    text-align: center; 
 }
 #mc > a:hover{
     
@@ -150,6 +150,7 @@ img{
     margin-top: -27%;
     margin-left: 65%;
     width: 23%;
+    height: auto;
 }
 #pesquisa{
     display: none;
@@ -174,11 +175,13 @@ img{
 }
 #fofav{
     margin-left: 5%;
+    padding: 0%;
+    margin-top: -4%;
 }
 #butfav{
     width: 5%;
-    margin-bottom: 7%;
-    margin-top: -7%;
+    margin-bottom: 4%;
+    margin-top: -2.9%;
     margin-left: 80%;
     display: block;
     height: 30px;
@@ -198,7 +201,7 @@ img{
     font-family: cursive;
     font-size: x-large;
     color: #885053;
-    margin-left: 9%;
+    margin-left: 9.5%;
     margin-bottom: 1%;
     margin-top: -1%;
     text-shadow: 1px 1px 10px black;
@@ -321,7 +324,28 @@ img{
     margin-top: 19%;
 }
 }
-
+/*pagina de favoritos*/
+#remFav {
+    background-color: #d13b3bf7;
+    color:rgb(151, 4, 4); 
+    border: none;
+    padding: 2.5%;
+    width: 15%;
+    border-radius: 5px;
+}
+#remFav:hover{
+    background-color: gray;
+    color: whitesmoke; 
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+}
+#remFav:focus{
+    background-color: gray;
+    color: whitesmoke;
+}
+#cbcTitulo{
+    align-items: center;
+}
 /*pagina de busca*/
 .col-xs-2 {
     width: 288px;
@@ -407,7 +431,7 @@ img{
     display: flex;
   }
   
-  #txtSearch{
+  #txtSearch, #txtSearch-O{
     float:left;
     background-color:transparent;
     padding-left:5px;
@@ -432,20 +456,28 @@ img{
     margin: 1%;
     padding-top: 2%;
 }
-#titulo {
+#nomes {
     margin: 0;
 }
+#nomes h2 {
+    text-transform: uppercase;
+}
+#nomes h3 {
+    font-style: italic;
+    font-size:medium;
+}
+
 #capa {
     float: left;
 }
 #capa img {
     margin: 0;
-    width: 350px;
-    height: 450px;
+    width: 330px;
+    height: 430px;
 }
 #descricao {
-    margin-left: 30%;
-    padding-top: 1%;
+    margin-left: 27%;
+    margin-top: -5%;
 }
 #addFav {
     margin-top: 1.5%;
@@ -471,7 +503,7 @@ img{
     font-family: fantasy;
     width: 90%;
     padding: 3% 1% 2% 3%;
-    margin: 10% 2% 1% 2%;
+    margin: 15% 2% 1% 2%;
     border-radius: 20px;
     box-shadow: 7px 6px 5px #00000052;
     outline: none;

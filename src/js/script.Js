@@ -109,4 +109,6 @@ function remFavorito(y){
     alert('💔 O livro foi removido de seus favoritos!');
     // Converte novamente o array em string e atualiza o localStorage
     localStorage.setItem("lista-favoritos", JSON.stringify(lista_favoritos));
+    location.reload();
 }
+
