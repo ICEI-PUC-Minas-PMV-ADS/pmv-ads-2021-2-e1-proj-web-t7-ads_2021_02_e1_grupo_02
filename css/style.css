@@ -463,13 +463,15 @@ img{
 
 #descLivro {
     margin: 1%;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 #nomes {
-    margin: 0;
+    margin-top: 1%;
+    margin-bottom: -0.5%;
 }
 #nomes h2 {
     text-transform: uppercase;
+    margin-block: 0.6em;
 }
 #nomes h3 {
     font-style: italic;
