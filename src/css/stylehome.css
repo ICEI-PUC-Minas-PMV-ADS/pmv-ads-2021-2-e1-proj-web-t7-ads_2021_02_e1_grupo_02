@@ -86,4 +86,10 @@ input {
   text-align: center;
   border-radius: 10px;
   margin-bottom: 1%;
+  border: none;
 }
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 

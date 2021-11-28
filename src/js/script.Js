@@ -53,7 +53,15 @@ function cadastrar(){
    }
     else{
         email.style.backgroundColor = '#ffffff'
-        localStorage.nome = document.getElementById('nome').value 
+        var usuarioCad = JSON.parse(localStorage.getItem('usuario_Cad'));
+
+        usuarioCad.nome = document.getElementById('nome').value;
+        usuarioCad.dtnascimento = document.getElementById('dtnascimento').value;
+        usuarioCad.tel = document.getElementById('tel').value;
+        usuarioCad.cpf = document.getElementById('cpf').value;
+        usuarioCad.email = document.getElementById('email').value;
+
+        localStorage.setItem("usuario_Cad", JSON.stringify(usuarioCad));
         validar.style.display = 'block'
         validar.innerHTML = 'Cadastro confirmado com sucesso!!!'
         location.href = 'favoritos.html'
@@ -61,24 +69,22 @@ function cadastrar(){
     }
 }
 function exibir() {
-    if (localStorage.nomecadastro) {
-        document.getElementById('nome').value = localStorage.nomecadastro
+    if (localStorage.usuario_Cad){
+        var ExibirUsuario = JSON.parse(localStorage.getItem('usuario_Cad'));
+        document.getElementById('nome').value = ExibirUsuario.nome;
+        document.getElementById('dtnascimento').value = ExibirUsuario.dtnascimento  || '';
+        document.getElementById('tel').value = ExibirUsuario.tel  || '';
+        document.getElementById('cpf').value = ExibirUsuario.cpf  || '';
+        document.getElementById('email').value = ExibirUsuario.email;
     }
-    if (localStorage.emailcadastro) {
-        document.getElementById('email').value = localStorage.emailcadastro
-    }  
-    if (localStorage.nome)
-        document.getElementById('saudar').innerHTML = localStorage.nome
 }
 
 
-function carregar() {
-    
-
-    if (localStorage.nome)
-        document.getElementById('saudar').innerHTML = localStorage.nome;
-    if (localStorage.nome){
-        document.getElementById('usuario').innerHTML = localStorage.nome;
+function carregar() {  
+    if (localStorage.usuario_Cad){
+        var ExibirUsuario = JSON.parse(localStorage.getItem('usuario_Cad'));
+        document.getElementById('saudar').innerHTML = ExibirUsuario.nome;
+        document.getElementById('usuario').innerHTML = ExibirUsuario.nome;
     }
 }  
 

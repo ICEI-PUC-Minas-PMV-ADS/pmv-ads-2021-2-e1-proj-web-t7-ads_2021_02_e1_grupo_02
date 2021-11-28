@@ -10,7 +10,7 @@
     <script src="js/script.Js"></script>
     <title>Radar Literario</title>
 </head>
-<body onload="exibir()">
+<body onload="exibir(); carregar()">
     <header>
         <h1>Radar Literário</h1>
         <a href="busca.html">
@@ -48,11 +48,11 @@
         <h1 id="titulo">Minha conta</h1>
         <div id="validacao">resposta</div>
         <form action="" id="formMeusDados">
-            Nome <input type="text" name="nome" id="nome" class="formulario" placeholder="Digite seu nome completo" required minlength="10" ><br><br>
-            Data de nascimento <input type="text" name="dt" id="dtnascimento" class="formulario" placeholder="Digite sua data de nascimento" required minlength="10" maxlength="10" ><br><br>
-            Telefone <input type="tel" name="telefone" id="tel" class="formulario" placeholder="Digite seu numero de telefone" required minlength="9" maxlength="12" ><br><br>
-            CPF/CNPJ <input type="cpf" name="cpf" id="cpf" class="formulario" placeholder="Digite seu numero de cpf" required minlength="14" maxlength="14" ><br><br>
-            Email <input type="email" name="email" id="email" class="formulario" placeholder="Digite seu email" required ><br><br>
+            Nome <input type="text" name="nome" id="nome" class="formulario" placeholder='Digite seu nome completo' required minlength="10" ><br><br>
+            Data de nascimento <input type="text" name="dt" id="dtnascimento" class="formulario" placeholder='Digite sua data de nascimento com "/"' required minlength="10" maxlength="10" ><br><br>
+            Telefone <input type="tel" name="telefone" id="tel" class="formulario" placeholder='Digite seu numero de telefone' required minlength="9" maxlength="12" ><br><br>
+            CPF/CNPJ <input type="cpf" name="cpf" id="cpf" class="formulario" placeholder='Digite seu numero de CPF com "." e "-"' required minlength="14" maxlength="14" ><br><br>
+            Email <input type="email" name="email" id="email" class="formulario" placeholder='Digite seu e-mail' required ><br><br>
             <input type="button" value="ENVIAR DADOS" id="botao" onclick="cadastrar()">
         </form>
     </main>
