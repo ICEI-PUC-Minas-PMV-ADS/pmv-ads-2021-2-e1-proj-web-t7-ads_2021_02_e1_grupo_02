@@ -14,32 +14,31 @@
         <header>
             <h1>Radar Literário</h1>
             <div id="search">
-                <input type="text" id="txtSearch" 
+                <input type="text" id="txtSearch-O" 
                     placeholder="Pesquise o nome de um livro... 📕" search="pesLivro">
                 <button id="btnSearch">
                     <span class="fas fa-search"></span>
                 </button>
             </div>
-            <img src="img/17004.png" width="45px" alt="Icone de foto">
+            <ul>
+                <li id="mc">
+                    <img src="img/17004.png" alt="Icone de foto">
+                    <a href="meus_dados.html" id="saudar">Minha conta</a>
+                </li>
+                <li id="principal">
+                    <a href="favoritos.html">
+                        🤍 Favoritos
+                    </a>
+                </li>
+            </ul>
             <nav>
-                <ul>
-                    <li id="mc">
-                        <a href="meus_dados.html" id="saudar">Minha conta</a>
-                    </li>
-                    <li id="principal">
-                        <a href="favoritos.html">
-                            <span class="fas fa-heart"></span> Favoritos
-                        </a>
-                    </li>
-                </ul>
-                <button id="pesquisa" onclick="clicar()">&#9776;</button>
-                <div class="paginas" id="submenu">
+                <div class="paginas">
                     <a id="estante" href="busca.html" target="_blank">ESTANTE</a>
-                    <a href="pag03.html">LIVROS MAIS VENDIDOS</a>
-                    <a href="pag04.html">LIVROS POR IDIOMA</a>
-                    <a href="pag05.html">LIVROS POR GENERO</a>
+                    <a href="#">LIVROS MAIS VENDIDOS</a>
+                    <a href="#">LIVROS POR IDIOMA</a>
+                    <a href="#">LIVROS POR GENERO</a>
                     <a href="#" >LIVROS RECOMENDADOS</a>
-                    <a href="pag07.html">DICAS DE LIVROS</a>
+                    <a href="#">DICAS DE LIVROS</a>
                 </div>   
             </nav>
         </header>
