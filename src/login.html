@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/icon favicon full.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="js/script.Js"></script>
-    <title>Radar Literario</title>
+    <link rel="stylesheet" type="text/css" href="css/stylecadastro.css">
+    <script src="https://kit.fontawesome.com/61454b5636.js" crossorigin="anonymous"></script>
+    <script src="js/validacaocad.js"></script>
+    <title>Cadastro</title>
 </head>
-<body onload="carregar()">
-    <header>
-        <h1>Radar Literário</h1>
-        <input type="search" id="search" placeholder="AUTOR OU LIVRO...🔎">
-        <img src="img/17004.png" width="45px" alt="Icone de foto">
-        <nav>
-        <ul>
-            <li id="mc">
-                <a href="meus_dados.html" id="saudar">Minha conta</a>
-            </li>
-            <li id="principal">
-                <a href="favoritos.html">🤍Favoritos</a>
-            </li>
-        </ul>
-        <button id="pesquisa" onclick="clicar()">&#9776;</button>
-            <div class="paginas" id="submenu">
-            <a id="estante" href="busca.html" target="_blank">ESTANTE</a>
-            <a href="pag03.html" >LIVROS MAIS VENDIDOS</a>
-            <a href="pag04.html" >LIVROS POR IDIOMA</a>
-            <a href="pag05.html" >LIVROS POR GENERO</a>
-            <a href="pag06.html" >LIVROS RECOMENDADOS</a>
-            <a href="pag07.html" >DICAS DE LIVROS</a>
-            </div>   
-        </nav>
-    </header>
+
+<body>
+    <h1>RADAR LITERÁRIO</h1><br>
     <main>
+        <div>
+            <h2 id="titulo"><span class="fas fa-user"></span> Entre em sua conta</h2>
+        </div>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required minlength="10">
+                </div>
+                <div class="campo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required> <br>
+                    <input type="checkbox" onclick=mostrarOcultarS()> Mostrar senha
+                </div>
+            </fieldset>
+            <fieldset class="grupo">
+                <input type="checkbox" name="receberemails" value="receberemails"> Desejo receber emails promocionais e
+                informativos.<br>
+            </fieldset>
 
-
+            <button class="botao" onclick="validacao()" type="button">Entrar</button>
+            <p>Não é cadastrado?<a href="cadastro.html"> Crie uma conta.</a>
+                <br>
+                Dúvidas? <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t7-ads_2021_02_e1_grupo_02/blob/main/README.md">
+                    Veja as perguntas mais frequentes.
+                </a>
+            </p>
+        </form>
     </main>
-    <footer>
-        
-    </footer>
-        
-    </body>
-</html>   
+</body>
+</html>

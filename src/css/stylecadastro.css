@@ -13,13 +13,23 @@ body {
 }
 
 main {
-  background-color: rgba(245, 227, 224, 0.65);
+  background: linear-gradient(0deg, rgba(19, 3, 3, 0.4), rgba(19, 3, 3, 0.4)), rgba(245, 227, 224, 0.6);
   max-width: 500px;
   margin: 3px auto;
   padding: 50px;
   border-radius: 30px;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Prata', sans-serif;
+  color: white;
+  font-size: 38px;
+  font-weight: lighter;
+  padding-right: 70%;
+  margin-top: 2%;
+  margin-left: 1%;
 }
 
 #titulo {
@@ -98,4 +108,9 @@ fieldset.grupo .class {
   text-shadow: none;
 
 
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
