@@ -38,8 +38,23 @@ function validacao(){
     }
     else{
         valsenha.style.backgroudColor = 'transparent';
-        localStorage.nomecadastro = document.getElementById('nome').value
-        localStorage.emailcadastro = document.getElementById('email').value
+
+        var usuarioCad = JSON.parse(localStorage.getItem('usuario_Cad') || '{}');
+
+        usuarioCad.nome = document.getElementById('nome').value;
+        usuarioCad.email = document.getElementById('email').value;
+        usuarioCad.senha = document.getElementById('valsenha').value;
+
+        localStorage.setItem("usuario_Cad", JSON.stringify(usuarioCad));
+        localStorage.removeItem('email_preCad')
         location.href = 'busca.html'
     }
+}
+
+function cadEmail(){
+    localStorage.setItem("email_preCad", document.querySelector("#email-preCad").value);
+}
+
+function recEmail(){
+    document.getElementById('email').value = localStorage.email_preCad  || '';
 }

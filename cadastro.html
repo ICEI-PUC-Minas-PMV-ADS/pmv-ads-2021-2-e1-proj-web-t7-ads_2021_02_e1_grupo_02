@@ -11,7 +11,8 @@
     <title>Cadastro</title>
 </head>
 
-<body>
+<body onload="recEmail()">
+    <h1>RADAR LITERÁRIO</h1><br>
     <main>
         <div>
             <h2 id="titulo">Crie sua conta</h2>
@@ -44,21 +45,21 @@
 
             <fieldset class="grupo">
                 <input type="checkbox" name="receberemails" value="receberemails"> Desejo receber emails promocionais e
-                informativos.
+                informativos.<br>
+                <input type="checkbox" name="termosuso" value="termosuso"> Ao seguir com o cadastro, concordo com os
+                Termos de Uso
+                e Políticas de Privacidades.<br>
             </fieldset>
 
             <button class="botao" onclick="validacao()" type="button">Criar conta </button>
-            <p>Já é cadastrado? Acesse
-                <a href="login.html">sua conta</a> <br>
-                <input type="checkbox" name="termosuso" value="termosuso"> Ao seguir com o cadastro, concordo com os
-                Termos de Uso
-                e Políticas de Privacidades. <br> <br>
-                Dúvidas? veja as perguntas mais frequentes
+            <p>Já é cadastrado? 
+                <a href="login.html">Acesse sua conta</a> <br>
+                
+                Dúvidas? <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t7-ads_2021_02_e1_grupo_02/blob/main/README.md">
+                    Veja as perguntas mais frequentes.
+                </a>
             </p>
+    </form>
     </main>
-
-        </form>
-
 </body>
-
 </html>
