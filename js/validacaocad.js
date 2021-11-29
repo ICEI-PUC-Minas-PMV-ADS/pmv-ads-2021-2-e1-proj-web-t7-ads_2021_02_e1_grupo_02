@@ -47,7 +47,7 @@ function validacao(){
 
         localStorage.setItem("usuario_Cad", JSON.stringify(usuarioCad));
         localStorage.removeItem('email_preCad')
-        location.href = 'busca.html'
+        location.href = 'login.html'
     }
 }
 

@@ -26,7 +26,7 @@ h1 {
 button {
   background-color: #d04040;
   width: 120px;
-  height: 35px;
+  height: 27px;
   padding: 0px;
   border: 0px;
   font-family: 'Zilla Slab', sans-serif;
@@ -76,14 +76,16 @@ section {
 }
 
 .CriarConta {
-  margin-left:auto;
+  margin-left: 18%;
+  margin-top: -3%;
 }
 
 input {
-  width: 300px;
+  width: 280px;
   height: 25px;
+  margin-right: 8%;
   font-size: 14px;
-  text-align: center;
+  padding-left: 8px;
   border-radius: 10px;
   margin-bottom: 1%;
   border: none;
