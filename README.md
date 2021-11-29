@@ -6,7 +6,7 @@
 
 `EIXO 1`
 
-Plataforma de Compartilhamento de Livros
+Plataforma para Gerenciar Livros Favoritos
 
 ## Integrantes
 
