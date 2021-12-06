@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   text-align: center;
-  background: url("img/fundo.jpeg") no-repeat center center fixed;
+  background: url("../img/fundo.jpeg") no-repeat center center fixed;
 
   background-size: cover;
 
