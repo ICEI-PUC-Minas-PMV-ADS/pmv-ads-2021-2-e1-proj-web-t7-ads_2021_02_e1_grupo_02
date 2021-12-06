@@ -1,5 +1,5 @@
 body {
-  background: url("/src/img/fundo.jpeg") no-repeat center center fixed;
+  background: url("../img/fundo.jpeg") no-repeat center center fixed;
 
   background-size: cover;
 
