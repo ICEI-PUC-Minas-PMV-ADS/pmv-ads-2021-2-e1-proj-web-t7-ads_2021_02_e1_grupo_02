@@ -50,12 +50,3 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
 
----
-
-[GitHub Pages - Radar Literário](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t7-ads_2021_02_e1_grupo_02/)
-
-*Para atualizar o github pages execute comando abaixo na branch `main`* 
-
-``` bash
-git subtree push --prefix src origin gh-pages
-```
